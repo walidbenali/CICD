@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('source') {
             steps {
-                git branch: 'master', credentialsId: 'df481f55-c9d2-4a22-bd14-a0df3afbc99c', url: 'git@github.com:walidbenali/CICD.git'
+                git branch: 'master', credentialsId: 'df481f55-c9d2-4a22-bd14-a0df3afbc99c', url: 'https://github.com/walidbenali/CICD.git'
             }
         }
 
